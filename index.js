@@ -28,7 +28,7 @@ const showEventDetails = (event) => {
     $detailsBox.innerHTML = `
       <h3>${event.name}</h3>
       <p><strong>ID:</strong> ${event.id}</p>
-      <p><strong>Date:>/strong> ${new Date(event.date).toLocaleString()}</p>
+      <p><strong>Date:</strong>${new Date(event.date).toLocaleString()}</p>
       <p><strong>Description:</strong> ${event.description}</p>
       <p><strong>Location:</strong> ${event.location}</p>
     `;
